@@ -1,0 +1,216 @@
+body {
+    user-select: none;
+    user-zoom:fixed;
+    -webkit-user-drag: none;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('ezgif.com-speed\ \(1\).gif');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    height: 550px;
+    width: 1050px;
+    background-color: rgba(37, 37, 37, 0.445);
+}
+
+.pfp {
+    margin-top: 6.5px;
+    margin-left: 12.5px;
+    height: 66px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.name {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 22px;
+    font-size: 1.5rem;
+}
+
+.description {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 26.5px;
+}
+
+.x {
+    position: absolute;
+    left: 98%;
+    margin-top: 3.5px;
+}
+.square {
+    position: absolute;
+    left: 96%;
+    margin-top: 10.5px;
+}
+.minus {
+    position: absolute;
+    left: 94%;
+    margin-top: 3.5px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(126,126,126,1);
+    position: relative;
+    top: 80px;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 20.6%;
+    transform: translate(-50%);
+    text-decoration: underline;
+}
+.about {
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    width: 50%;
+    margin-right: 62px;
+    text-align:justify;
+}
+
+
+.player {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 140px;
+    width: 325px;
+    height: 349px;
+    background-color: rgba(51, 51, 51, 0.432);
+    border-radius: 3px;
+}
+
+.player video {
+    max-width: 325px;
+    max-height: 349px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}.player img {
+    max-width: 325px;
+    max-height: 349px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-discord{
+    background-image: url('https://cdn.discordapp.com/attachments/917569655139348543/1195715811130748968/d6570d63-4a9b-43a0-ab0b-21b712026223.jpg?ex=65b50020&is=65a28b20&hm=0363dc5b2a534277d26a6c60cfd9eee3f06bf8b0fcb34ac86db26854f8cf1c70&');
+    object-fit:fill;
+    background-position: center;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 300px;
+    left: 50%;
+    height: 100px;
+    width: 350px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.discord {
+    position: relative;
+    left: 25px;
+    top: 10px;
+    color: rgba(49,51,56,1);
+}
+
+.discord .pfpDiscord {
+    position: absolute;
+    top: 30px;
+    height: 64px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 5px white;
+}
+.discord .username {
+    font-size: 1.2rem;
+    position: relative;
+    left: 82px;
+    top: 70px;
+}
+.discord .discriminator {
+    position: relative;
+    left: 82px;
+    top: 42px;
+    font-size: small;
+}
+
+.status-indicator {
+    position: absolute;
+    left:73px;
+    z-index: 5;
+    top: 110px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    box-shadow: 0px 0px 0px 2px white;
+}
+
+.profileBadge__1d2d3 {
+    height: 20px;
+    display: inline-block;
+    margin-top: 1px;
+}
+.profileBadge__1d2d3:first-child {
+    margin-left: 2px;
+
+}
+
+
+.badges {
+    position: absolute;
+    left: 59.7%;
+    top: 70%;
+    height: 22px;
+    width: 133px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: rgb(44, 44, 44);
+}
+.discord .activity {
+    position: absolute;
+    z-index: 5;
+    top: 60%;
+    background-color: aqua;
+}
+.mainbg {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 350px;
+    position: absolute;
+    top: 100%;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
